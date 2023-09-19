@@ -185,10 +185,10 @@ footer h3{
   text-align: center;
 }
 .texto{
-  display: flex;
   align-items: center;
-  margin-right: 20px;
-  flex-direction: column;
+  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
 }
 .imge{
   width: 50px;
