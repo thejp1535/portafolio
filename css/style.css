@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --primary-color : #FF8C32;
+  --secondary-color : #FFFFFF;
+  --third-color: #050404;
+  --h1:font-family: 'Nunito', sans-serif;
+  --h2:font-family: 'Nunito', sans-serif;
+  --h3:font-family: 'Poppins', sans-serif;
+  --p:font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: var(--third-color);
+}
+*{
+  padding: 8px;
+}
+.bg-portafolio-nav{
+  height: 70%;
+  background-color:   #050404; 
+  justify-content: space-around;
+  padding-top: 1px;
+}
+.bg-portafolio-nav ul li{
+  margin: 0 30px;
+}
+.bg-portafolio-nav a{
+  text-align: center;
+  color: #FF8C32;
+  border-color: #FF8C32;
+  border: 2px solid #FF8C32;
+  border-radius: 20%;
+  margin-top: 10px;
+  font-family: var(--h1);
+}
+.container{
+  width: 100%;
+  background-color: #050404; 
+  max-width: 2140px;
+}
+
+.nav-link:hover{
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+header #hero h1{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  font-family: var(--h1);
+  margin-bottom: 10px;
+}
+header #hero h2{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: var(--h2);
+  padding-top: 30px;
+}
+header #hero h3{
+  color: var(--primary-color);
+  text-align: left;
+  font-weight: 100;
+  margin-bottom: -2px;
+  font-family: var(--h3);
+  padding-top: 80px;
+}
+header #hero p{
+  color: var(--secondary-color);
+  text-align: left;
+  font-weight: 150;
+ font-size: 35px;
+  font-family: var(--p);
+  padding-top: 0;
+}
+header #hero img{
+  position:relative;
+  top: -5%;
+  left: 5%;
+}
+.JP{
+  width: 90%;
+  height: 100%;
+  border-radius: 45px;
+  scale: 80%;
+}
+#estudios h2{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: var(--h2);
+  padding-top: 0;
+}
+#estudios h3{
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-family: var(--h3);
+}
+.jp2{
+  width: fit-content;
+}
+.tiempo {
+  color: var(--secondary-color);
+  list-style: disc; 
+  font-family: var(--p);
+  font-size: 25px;
+}
+.tiempo li {
+  margin-bottom: 80px; 
+}
+ #habilidad h2{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: var(--h2);
+  padding-top: 10px;
+}
+.progreso {
+  color: var(--secondary-color);
+  padding-right: 15px;
+  font-size: 1rem;
+  margin: 35px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.js{
+  width: 60px;
+  height: 60px;
+}
+#Proyecto h2{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: var(--h2);
+  padding-top: 10px;
+}
+#carouselExampleFade{
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#Experiencia h2{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: var(--h2);
+
+}
+.trabajo{
+  color: var(--secondary-color);
+  list-style: disc; 
+  font-family: var(--p);
+  margin: 15px;
+}
+.trabajo li{
+  margin-bottom: 110px;
+  font-size: 25px;
+}
+.linea{
+  border-top: 2px solid var(--secondary-color); 
+  margin: 20px; 
+  width: 90%;
+}
+footer p{
+  color: var(--secondary-color);
+  font-family: var(--p);
+  font-size: 20px;
+}
+footer h3{
+  color: var(--secondary-color);
+  font-family: var(--p);
+  text-align: center;
+}
+.texto{
+  align-items: center;
+  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.imge{
+  width: 50px;
+  height: 50px;
+}
