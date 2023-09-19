@@ -195,6 +195,6 @@ footer h3{
   height: 50px;
 }
 a{
-  color:#FF8C32;
+  color: var  (--primary-color);
   text-decoration: underline;
 }
